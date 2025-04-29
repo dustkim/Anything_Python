@@ -1,0 +1,14 @@
+html,
+body,
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+.totalBox {
+  display: flex;
+  flex-direction: row;
+}
+.contentBox {
+  height: 100vh;
+  width: 80vw;
+}
