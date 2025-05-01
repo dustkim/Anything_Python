@@ -1,0 +1,55 @@
+.TotalHomeBox {
+  height: 80vh;
+  background-color: rgb(194, 174, 194);
+}
+.HomeContainer {
+  height: 80vh;
+}
+.HomeContentBox {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.HomeContentBox h1 {
+  font-size: 60px;
+  margin: 0;
+}
+.HomeContentBox p {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid black;
+  width: 0;
+  animation: typingLoop 5s steps(20, end) infinite, blink 1s step-end infinite;
+}
+
+@keyframes typingLoop {
+  0% {
+    width: 0;
+  }
+  30% {
+    width: 19ch;
+  }
+  60% {
+    width: 19ch;
+  }
+  90% {
+    width: 0;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  90% {
+    border-color: transparent;
+  }
+}
+.HomeImageBox {
+  height: 50vh;
+}

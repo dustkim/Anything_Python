@@ -1,0 +1,27 @@
+.TotalContactBox {
+  height: 30vh;
+  background-color: rgb(217, 215, 215);
+}
+.ContactContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ContactMainImageBox {
+  margin-top: 20px;
+}
+.ContactContentList {
+  margin-top: 20px;
+  list-style: none;
+}
+.ContactImageBox {
+  margin-top: 20px;
+}
+.ContactImageBox img {
+  cursor: pointer;
+}
+.ContactImageBox img:hover {
+  transform: scale(1.1);
+}

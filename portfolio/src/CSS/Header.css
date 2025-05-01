@@ -1,0 +1,45 @@
+.TotalHeaderBox {
+  height: 5vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  position: fixed;
+  top: -5vh;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: top 1.5s ease;
+}
+.TotalHeaderBox.visible {
+  top: 0;
+}
+.HeaderContainer {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeaderContentList {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.HeaderContentList li {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.HeaderContentList li:hover {
+  color: violet;
+  transform: scale(1.1);
+}

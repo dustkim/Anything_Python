@@ -1,0 +1,12 @@
+.TotalFooterBox {
+  height: 5vh;
+  background-color: rgb(217, 215, 215);
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FooterContainer {
+  font-size: 12px;
+  text-align: center;
+}
