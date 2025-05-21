@@ -1,3 +1,39 @@
 .TotalAboutBox {
   height: 100vh;
 }
+.AboutContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.AboutContentBox {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.Aboutme {
+  background-color: rgb(248, 248, 152);
+  width: 100%;
+  padding: 15px;
+  border-radius: 2%;
+}
+.AboutmeDetail {
+  display: flex;
+  flex-direction: column;
+}
+.Education,
+.Award {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.Education div,
+.Award div {
+  width: 40%;
+}
+.AboutmeMyPhoto {
+  width: 20vw;
+  border: 1px solid black;
+  border-radius: 2%;
+}

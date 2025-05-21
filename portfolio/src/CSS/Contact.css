@@ -17,11 +17,11 @@
   list-style: none;
 }
 .ContactImageBox {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .ContactImageBox img {
   cursor: pointer;
 }
 .ContactImageBox img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }

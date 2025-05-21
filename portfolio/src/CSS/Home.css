@@ -4,6 +4,10 @@
 }
 .HomeContainer {
   height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
 }
 .HomeContentBox {
   height: 30vh;
@@ -14,7 +18,7 @@
 }
 .HomeContentBox h1 {
   font-size: 60px;
-  margin: 0;
+  margin: 10px;
 }
 .HomeContentBox p {
   font-size: 40px;
@@ -51,5 +55,14 @@
   }
 }
 .HomeImageBox {
-  height: 50vh;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 50px;
+}
+.HomeImageBox img {
+  cursor: pointer;
+}
+.HomeImageBox img:hover {
+  transform: scale(1.01);
 }

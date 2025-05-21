@@ -1,14 +1,14 @@
 import React from "react";
 import "../CSS/Contact.css";
-import ContactImageMail from "../Image/direct-mail.png";
-import ContactImageGithub from "../Image/github.png";
+import Mail from "../Image/direct-mail.png";
+import Github from "../Image/github.png";
 
-const Contact = ({ Contact }) => {
+const Contact = () => {
   return (
     <div className="TotalContactBox">
       <div className="ContactContainer">
         <div className="ContactMainImageBox">
-          <img src={ContactImageMail} alt="contact" width={150}></img>
+          <img src={Mail} alt="contact" width={150} />
         </div>
         <ul className="ContactContentList">
           <li>
@@ -20,11 +20,11 @@ const Contact = ({ Contact }) => {
         </ul>
         <div className="ContactImageBox">
           <img
-            src={ContactImageGithub}
+            src={Github}
             alt="github"
-            width={50}
+            width={30}
             onClick={() => window.open("https://github.com/dustkim")}
-          ></img>
+          />
         </div>
       </div>
     </div>

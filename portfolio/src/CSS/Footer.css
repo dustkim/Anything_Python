@@ -1,7 +1,7 @@
 .TotalFooterBox {
-  height: 5vh;
+  height: 3vh;
   background-color: rgb(217, 215, 215);
-  border: 1px solid gray;
+  border-top: 1px solid gray;
   display: flex;
   justify-content: center;
   align-items: center;
