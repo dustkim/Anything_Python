@@ -20,16 +20,42 @@ const Home = () => {
           <p>Hello, I'm Kim wonjin.</p>
         </div>
         <div className="HomeImageBox">
-          <img src={aboutme} alt="aboutme" width={100} onClick={() => scrollToSection("about")} />
-          <img src={skill} alt="skill" width={100} onClick={() => scrollToSection("skill")} />
-          <img
-            src={portfolio}
-            alt="portfolio"
-            width={100}
-            onClick={() => scrollToSection("portfolio")}
-          />
-          <img src={contact} alt="contact" width={100} onClick={() => scrollToSection("contact")} />
+          <div id="Img">
+            <img src={aboutme} alt="aboutme" width={100} onClick={() => scrollToSection("about")} />
+            <p>about</p>
+          </div>
+          <div id="Img">
+            <img src={skill} alt="skill" width={100} onClick={() => scrollToSection("skill")} />
+            <p>skill</p>
+          </div>
+          <div id="Img">
+            <img
+              src={portfolio}
+              alt="portfolio"
+              width={100}
+              onClick={() => scrollToSection("portfolio")}
+            />
+            <p>portfolio</p>
+          </div>
+          <div id="Img">
+            <img
+              src={contact}
+              alt="contact"
+              width={100}
+              onClick={() => scrollToSection("contact")}
+            />
+            <p>contact</p>
+          </div>
         </div>
+        <div
+          className="HorizonLine"
+          style={{
+            width: "30%",
+            textAlign: "center",
+            marginTop: "20px",
+            borderBottom: "3px solid black",
+          }}
+        ></div>
       </div>
     </div>
   );

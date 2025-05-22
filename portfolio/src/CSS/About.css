@@ -1,5 +1,6 @@
 .TotalAboutBox {
   height: 100vh;
+  background-color: rgb(247, 233, 247);
 }
 .AboutContainer {
   height: 100vh;
@@ -13,7 +14,7 @@
   gap: 20px;
 }
 .Aboutme {
-  background-color: rgb(248, 248, 152);
+  background-color: rgb(194, 174, 194);
   width: 100%;
   padding: 15px;
   border-radius: 2%;
@@ -32,8 +33,21 @@
 .Award div {
   width: 40%;
 }
-.AboutmeMyPhoto {
-  width: 20vw;
-  border: 1px solid black;
+.AboutmeElse {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.Explain {
+  height: 50%;
   border-radius: 2%;
+  background-color: rgb(194, 174, 194);
+  align-content: center;
+}
+.Explain ul {
+  list-style: none;
+  padding-left: 20px;
+}
+.Explain ul > li {
+  margin-bottom: 15px;
 }

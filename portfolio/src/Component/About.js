@@ -1,5 +1,6 @@
 import React from "react";
 import "../CSS/About.css";
+import wonjin from "../Image/wonjin.png";
 
 const About = () => {
   return (
@@ -68,7 +69,25 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="AboutmeMyPhoto"></div>
+          <div className="AboutmeElse">
+            <img
+              src={wonjin}
+              alt="wonjin"
+              width={300}
+              height={300}
+              style={{ borderTopRightRadius: "2%", borderTopLeftRadius: "2%" }}
+            ></img>
+            <div className="Explain">
+              <ul>
+                <li>Name : </li>
+                <li>Birthday : </li>
+                <li>Age : </li>
+                <li>City : </li>
+                <li>Phone : </li>
+                <li>E-mail : </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
