@@ -1,10 +1,10 @@
 .TotalAboutBox {
-  height: 100vh;
-  background-color: rgb(247, 233, 247);
+  height: 120vh;
 }
 .AboutContainer {
-  height: 100vh;
+  height: 120vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -12,9 +12,10 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
+  margin-top: 50px;
 }
 .Aboutme {
-  background-color: rgb(194, 174, 194);
+  background-color: rgb(247, 233, 247);
   width: 100%;
   padding: 15px;
   border-radius: 2%;
@@ -41,13 +42,28 @@
 .Explain {
   height: 50%;
   border-radius: 2%;
-  background-color: rgb(194, 174, 194);
+  background-color: rgb(247, 233, 247);
   align-content: center;
 }
 .Explain ul {
   list-style: none;
   padding-left: 20px;
+  padding-right: 20px;
 }
-.Explain ul > li {
+.Explain ul li {
   margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.Resume {
+  background-color: white;
+  font-size: 15px;
+  margin-top: 50px;
+  padding: 15px 20px 15px 20px;
+  border-radius: 9999px;
+  border: 3px solid rgb(247, 233, 247);
+}
+.Resume:hover {
+  cursor: pointer;
+  background-color: rgb(247, 233, 247);
 }

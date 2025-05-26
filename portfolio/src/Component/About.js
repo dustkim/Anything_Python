@@ -1,11 +1,13 @@
 import React from "react";
 import "../CSS/About.css";
 import wonjin from "../Image/wonjin.png";
+import about from "../Image/aboutme.png";
 
 const About = () => {
   return (
     <div className="TotalAboutBox">
       <div className="AboutContainer">
+        <img src={about} alt="aboutme" width={100} />
         <div className="AboutContentBox">
           <div className="Aboutme">
             <div className="AboutmeTitle">
@@ -49,7 +51,7 @@ const About = () => {
                 <div>
                   <h3>Certificate</h3>
                   <p>
-                    <span style={{ fontWeight: "normal" }}>SQLD</span>
+                    <span>SQLD</span>
                     <span> | 25.04.04</span>
                   </p>
                   <p>
@@ -75,20 +77,35 @@ const About = () => {
               alt="wonjin"
               width={300}
               height={300}
-              style={{ borderTopRightRadius: "2%", borderTopLeftRadius: "2%" }}
+              style={{ borderRadius: "2%" }}
             ></img>
             <div className="Explain">
               <ul>
-                <li>Name : </li>
-                <li>Birthday : </li>
-                <li>Age : </li>
-                <li>City : </li>
-                <li>Phone : </li>
-                <li>E-mail : </li>
+                <li>
+                  Name : <span>KIM WONJIN</span>
+                </li>
+                <li>
+                  Birthday : <span>1997 06 26</span>
+                </li>
+                <li>
+                  Age : <span>29세(만 28세)</span>
+                </li>
+                <li>
+                  City : <span>Seoul</span>
+                </li>
+                <li>
+                  Phone : <span>010-7764-3675</span>
+                </li>
+                <li>
+                  E-mail : <span>dnjswlssla78@naver.com</span>
+                </li>
               </ul>
             </div>
           </div>
         </div>
+        <button className="Resume" onClick={() => window.open("/resume.pdf")}>
+          View Resume
+        </button>
       </div>
     </div>
   );

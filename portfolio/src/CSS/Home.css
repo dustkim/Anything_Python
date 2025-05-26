@@ -1,9 +1,9 @@
 .TotalHomeBox {
-  height: 70vh;
-  background-color: rgb(194, 174, 194);
+  height: 90vh;
+  background-color: rgb(247, 233, 247);
 }
 .HomeContainer {
-  height: 70vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;

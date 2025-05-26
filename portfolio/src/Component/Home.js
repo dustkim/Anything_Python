@@ -53,7 +53,7 @@ const Home = () => {
             width: "30%",
             textAlign: "center",
             marginTop: "20px",
-            borderBottom: "3px solid black",
+            borderTop: "3px solid black",
           }}
         ></div>
       </div>

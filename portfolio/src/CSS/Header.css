@@ -39,7 +39,8 @@
   padding: 10px;
 }
 
-.HeaderContentList li:hover {
+.HeaderContentList li:hover,
+.HeaderContentList li.active {
   color: violet;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }

@@ -1,4 +1,39 @@
 .TotalSkillBox {
-  height: 100vh;
-  background-color: rgb(194, 174, 194);
+  height: 120vh;
+  background-color: rgb(247, 233, 247);
+}
+.SkillContainer {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.SkillContentBox {
+  margin-top: 50px;
+}
+.Skill {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.Backend {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.Skill ul {
+  height: 150px;
+  width: 300px;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: start;
+  border: 3px solid black;
+  padding: 30px;
+  line-height: 30px;
+}
+.Frontend {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
 }
