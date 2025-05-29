@@ -1,3 +1,43 @@
 .TotalPortfolioBox {
   height: 100vh;
 }
+.PortfolioContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.PortfolioContentBox {
+  margin-top: 50px;
+}
+.Portfolio {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.project {
+  width: 300px;
+  position: relative;
+  display: inline-block;
+}
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.overlay:hover {
+  cursor: pointer;
+  z-index: 1;
+  background-color: rgba(128, 128, 128, 0.7);
+  opacity: 1;
+}
+.overlayText {
+  color: white;
+}

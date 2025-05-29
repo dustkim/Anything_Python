@@ -1,21 +1,24 @@
 .TotalSkillBox {
-  height: 120vh;
+  height: 130vh;
   background-color: rgb(247, 233, 247);
 }
 .SkillContainer {
-  height: 120vh;
+  height: 130vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .SkillContentBox {
+  width: 50%;
+  height: 80vh;
   margin-top: 50px;
 }
 .Skill {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  justify-content: center;
 }
 .Backend {
   text-align: center;
@@ -36,4 +39,43 @@
   text-align: center;
   font-size: 30px;
   font-weight: bold;
+}
+.SkillBox {
+  width: 100%;
+  height: 40%;
+  margin-top: 50px;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.skillImageRap {
+  width: 100%;
+  height: 100%;
+}
+.SkillImage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transition: 0.5s ease-in-out;
+}
+.ImageSlide {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.ImageSlide img {
+  max-width: 30%;
+  object-fit: contain;
+}
+.SkillBox button {
+  z-index: 1;
+  background-color: white;
+  border: none;
+}
+.SkillBox button:hover {
+  cursor: pointer;
 }
